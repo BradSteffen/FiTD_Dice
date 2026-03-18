@@ -2,6 +2,19 @@ html {
   font-family: sans-serif;
 }
 
+/* .column-background {
+  background-color: #97db9a;
+}
+
+.column-fixed-width {
+  width: 40px;
+}
+
+.column-background-border {
+  background-color: #dcc48e;
+  border: 4px solid #c1437a;
+} */
+
 table {
   border-collapse: collapse;
   border: 2px solid rgb(200,200,200);
@@ -18,6 +31,11 @@ th {
   background-color: rgb(235,235,235);
 }
 
+caption,
+th {
+  font-weight: bold;
+}
+
 td {
   text-align: center;
 }
@@ -32,4 +50,13 @@ tr:nth-child(odd) td {
 
 caption {
   padding: 10px;
+}
+
+tbody {
+  font-size: 95%;
+  font-style: italic;
+}
+
+tfoot {
+  font-weight: bold;
 }
